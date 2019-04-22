@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/logo.png
 actionText: Get Started →
-actionLink: /guide/
+actionLink: https://play.galaxyofdrones.com
 footer: Code - MIT Licensed | Artwork - CC BY-NC-SA 4.0 | Copyright © 2018-present Koodilab
 navbar: false
 ---

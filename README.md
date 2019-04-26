@@ -1,3 +1,3 @@
 # Galaxy of Drones Online Docs
 
-Documentation and game guide.
+The gamer and developer guide.

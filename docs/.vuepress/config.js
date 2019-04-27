@@ -13,13 +13,21 @@ module.exports = {
         ],
 
         sidebar: {
-            '/gamer-guide/': [
-                ''
-            ],
+            '/gamer-guide/': [{
+                title: 'Gamer Guide',
+                collapsable: false,
+                children: [
+                    ''
+                ]
+            }],
 
-            '/developer-guide/': [
-                ''
-            ]
+            '/developer-guide/': [{
+                title: 'Developer Guide',
+                collapsable: false,
+                children: [
+                    ''
+                ]
+            }],
         }
     }
 };

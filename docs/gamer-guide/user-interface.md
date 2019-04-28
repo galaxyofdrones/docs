@@ -56,6 +56,9 @@ The following paragraphs provide a quick overview of the user interface.
 - `Incoming Red` - Shows the number of incoming attacks on the current planet.
 - `Outgoing White` - Shows the number of outgoing movements on the current planet.
 - `Outgoing Orange` - Shows the number of outgoing attacks on the current planet.
+- `Construction` - Shows the number of constructions on the current planet.
+- `Upgrade` - Shows the number of upgrades on the current planet.
+- `Training` - Shows the number of trainings on the current planet.
 
 ### Mineral Section
 

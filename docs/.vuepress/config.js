@@ -5,6 +5,7 @@ module.exports = {
         docsDir: 'docs',
         docsRepo: 'galaxyofdrones/docs',
         editLinks: true,
+        lastUpdated: true,
         repo: 'galaxyofdrones/galaxyofdrones',
         
         nav: [
@@ -17,7 +18,12 @@ module.exports = {
                 title: 'Gamer Guide',
                 collapsable: false,
                 children: [
-                    ''
+                    '',
+                    'user-interface',
+                    'features',
+                    'planets',
+                    'buildings',
+                    'units'
                 ]
             }],
 
@@ -25,7 +31,10 @@ module.exports = {
                 title: 'Developer Guide',
                 collapsable: false,
                 children: [
-                    ''
+                    '',
+                    'console',
+                    'starmap',
+                    'surface'
                 ]
             }],
         }

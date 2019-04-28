@@ -26,8 +26,8 @@ The following paragraphs provide a quick overview of the user interface.
 - `Cog` - Opens the Settings modal.
 - `Power Off` - Logs out the user.
 - `Progress Bar` - Shows how much experience you need for the next level.
-- `White Number` - Shows the current level.
-- `Yellow Number` - Shows the current energy.
+- `Number White` - Shows the current level.
+- `Number Yellow` - Shows the current energy.
 
 ## Surface
 

@@ -7,7 +7,8 @@ module.exports = {
         editLinks: true,
         lastUpdated: true,
         repo: 'galaxyofdrones/galaxyofdrones',
-        
+        sidebarDepth: 2,
+
         nav: [
             { text: 'Gamer Guide', link: '/gamer-guide/' },
             { text: 'Developer Guide', link: '/developer-guide/' }

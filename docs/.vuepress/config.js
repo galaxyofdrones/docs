@@ -21,7 +21,7 @@ module.exports = {
                     '',
                     'user-interface',
                     'features',
-                    'planets',
+                    'objects',
                     'buildings',
                     'units'
                 ]

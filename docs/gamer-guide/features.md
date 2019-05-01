@@ -2,7 +2,9 @@
 
 ## Surface
 
-### Construct
+### Economy
+
+### Construction
 
 ### Upgrade
 
@@ -14,7 +16,7 @@
 
 ### Support
 
-### Train
+### Training
 
 ## Starmap
 

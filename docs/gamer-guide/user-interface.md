@@ -2,33 +2,6 @@
 
 The following paragraphs provide a quick overview of the user interface.
 
-## Starmap
-
-![Starmap](/img/ui-starmap.png)
-
-### Left Navbar
-
-- `Bars` - Toggles the Sidebar of the current planet.
-- `Globe` - Shows the Surface of the current planet.
-- `Satellite` - Shows the Starmap around the current planet.
-- `Rocket` - Opens the Mothership modal.
-- `Trophy` - Opens the PvP and PvE ranking modal.
-
-### Top Left Buttons
-
-- `Plus` - Zooms in on the Starmap.
-- `Minus` - Zooms out on the Starmap.
-- `Star` - Opens the Bookmarks modal.
-
-### Top Right User Panel
-
-- `Envelope` - Opens the Mailbox modal. 
-- `Cog` - Opens the Settings modal.
-- `Power Off` - Logs out the user.
-- `Progress Bar` - Shows how much experience you need for the next level.
-- `Number White` - Shows the current level.
-- `Number Yellow` - Shows the current energy.
-
 ## Surface
 
 ![Surface](/img/ui-surface.png)
@@ -70,3 +43,30 @@ The following paragraphs provide a quick overview of the user interface.
 
 - `Progress Bar` - Shows all available and used storage space on the current planet.
 - `Units` - Shows the numbers of units on the current planet.
+
+## Starmap
+
+![Starmap](/img/ui-starmap.png)
+
+### Left Navbar
+
+- `Bars` - Toggles the Sidebar of the current planet.
+- `Globe` - Shows the Surface of the current planet.
+- `Satellite` - Shows the Starmap around the current planet.
+- `Rocket` - Opens the Mothership modal.
+- `Trophy` - Opens the PvP and PvE ranking modal.
+
+### Top Left Buttons
+
+- `Plus` - Zooms in on the Starmap.
+- `Minus` - Zooms out on the Starmap.
+- `Star` - Opens the Bookmarks modal.
+
+### Top Right User Panel
+
+- `Envelope` - Opens the Mailbox modal. 
+- `Cog` - Opens the Settings modal.
+- `Power Off` - Logs out the user.
+- `Progress Bar` - Shows how much experience you need for the next level.
+- `Number White` - Shows the current level.
+- `Number Yellow` - Shows the current energy.

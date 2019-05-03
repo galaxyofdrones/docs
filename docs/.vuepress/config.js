@@ -34,8 +34,8 @@ module.exports = {
                 children: [
                     '',
                     'console',
-                    'starmap',
-                    'surface'
+                    'surface',
+                    'starmap'
                 ]
             }],
         }

@@ -1,6 +1,10 @@
 # Features
 
+The following list summarizes the main features of the game.
+
 ## Surface
+
+![Surface](/img/surface.png)
 
 ### Economy
 
@@ -20,6 +24,8 @@
 
 ## Starmap
 
+![Starmap](/img/starmap.png)
+
 ### Scout
 
 ### Attack
@@ -31,6 +37,8 @@
 ### Transport
 
 ## Mothership
+
+![Mothership](/img/mothership.png)
 
 ### Cargo
 
@@ -44,6 +52,8 @@
 
 ## Trophy
 
-### PvP
+![Trophy](/img/trophy.png)
 
 ### PvE
+
+### PvP

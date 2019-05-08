@@ -133,7 +133,7 @@ After running `laravel-echo-server init` command, you need to change the `socket
 }
 ```
 
-Next you need to add the `/ws` path to your nginx site configuration:
+Next you need to add the `/ws` path to your nginx site configuration.
 
 ``` bash
 location /ws {

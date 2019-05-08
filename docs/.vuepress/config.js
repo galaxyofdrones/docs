@@ -33,6 +33,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     '',
+                    'configuration',
                     'console',
                     'surface',
                     'starmap'

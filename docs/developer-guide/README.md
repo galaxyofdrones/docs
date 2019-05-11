@@ -160,7 +160,7 @@ $ laravel-echo-server start
 
 ## Generate the Starmap
 
-Estimated time `~1 hour`, Estimated size `~4 GB`
+Estimated time: `~1 hour`, Estimated size: `~4 GB`
 
 ``` bash
 $ php artisan starmap:generate

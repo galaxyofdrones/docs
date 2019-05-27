@@ -137,7 +137,7 @@ Next you need to add the `/ws` path to your nginx site configuration.
 
 ``` bash
 location /ws {
-    proxy_pass http://websocket:6001;
+    proxy_pass http://127.0.0.1:6001;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection 'upgrade';

@@ -30,8 +30,9 @@ v1.0.0-alpha2
 v1.0.0-beta1
 v1.0.0-beta2
 v1.0.1
+v1.1.0
 
-$ git checkout v1.0.1
+$ git checkout v1.1.0
 ```
 
 ## Copy the Configuration

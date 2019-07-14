@@ -9,7 +9,6 @@ If you don't want to install the application manually, you can also use the [Doc
 Before you start, you need to install the prerequisites.
 
 - [Laravel 5.8 Server Requirements](https://laravel.com/docs/5.8/installation#installation)
-- [Laravel Echo Server](https://github.com/tlaverdure/laravel-echo-server)
 - [Composer](https://getcomposer.org)
 - ImageMagick PHP Extension
 - MySQL or PostgreSQL (with JSON support)
@@ -31,8 +30,9 @@ v1.0.0-beta1
 v1.0.0-beta2
 v1.0.1
 v1.1.0
+v1.2.0
 
-$ git checkout v1.1.0
+$ git checkout v1.2.0
 ```
 
 ## Copy the Configuration
@@ -124,21 +124,21 @@ You need to add the following Cron entry to your server.
 * * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
 ```
 
-## Configuring the Echo Server
+## Configuring the Laravel Websockets
 
-After running `laravel-echo-server init` command, you need to change the `socketio` config.
+You can edit these values in the `.env` file.
 
-``` js
-"socketio": {
-    "path": "/ws"
-}
+``` bash
+PUSHER_APP_ID=
+PUSHER_APP_KEY=
+PUSHER_APP_SECRET=
 ```
 
 Next you need to add the `/ws` path to your nginx site configuration.
 
 ``` bash
 location /ws {
-    proxy_pass http://127.0.0.1:6001;
+    proxy_pass http://127.0.0.1:6001/;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection 'upgrade';
@@ -147,16 +147,16 @@ location /ws {
 }
 ```
 
-## Run the Echo Server
+## Run the Laravel Websockets
 
-This command will start the Laravel Echo Server.
+This command will start the Laravel Websockets.
 
 ::: tip
 We recommend that you use the [Supervisord](http://supervisord.org) for this command.
 :::
 
 ``` bash
-$ laravel-echo-server start
+$ php artisan websockets:serve
 ```
 
 ## Generate the Starmap

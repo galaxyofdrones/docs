@@ -1,6 +1,7 @@
 # Objects
 
 A full starmap contains `24 576` objects in different types and sizes.
+A Planet cannot be occupied if the respective resource was not yet researched.
 
 ## Types
 

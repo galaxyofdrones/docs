@@ -1,9 +1,5 @@
 # Installation
 
-::: tip
-If you don't want to install the application manually, you can also use the [Docker version](https://github.com/galaxyofdrones/docker).
-:::
-
 ## Prerequisites
 
 Before you start, you need to install the prerequisites.

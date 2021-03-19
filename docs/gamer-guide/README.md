@@ -8,8 +8,6 @@ The servers listed below work with the original unmodified code base.
 
 | Name | Description | Link |
 |------|-------------|------|
-| Galaxy of Drones | EU based server with 1X game speed. | [Play Now](https://play.galaxyofdrones.com/) |
-
 
 ## Third-Party Servers
 

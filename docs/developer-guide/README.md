@@ -4,7 +4,7 @@
 
 Before you start, you need to install the prerequisites.
 
-- [Laravel 5.8 Server Requirements](https://laravel.com/docs/5.8/installation#installation)
+- [Laravel 8.x Server Requirements](https://laravel.com/docs/8.x/deployment#server-requirements)
 - [Composer](https://getcomposer.org)
 - ImageMagick PHP Extension
 - MySQL or PostgreSQL (with JSON support)
@@ -27,8 +27,9 @@ v1.0.0-beta2
 v1.0.1
 v1.1.0
 v1.2.0
+v1.3.0
 
-$ git checkout v1.2.0
+$ git checkout v1.3.0
 ```
 
 ## Copy the Configuration
